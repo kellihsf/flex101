@@ -1,65 +1,32 @@
-.main-container {
-    display:flex;
+.first-container > .box:nth-child(odd) {
+    background-color:#ffce9e;
 }
 
-.box:nth-child(odd) {
-    background-color:#ffce9e;
-  }
+.first-container > .box:nth-child(even) {
+    background-color: #d18a46;
+}
 
-.box:nth-child(even){
-    background-color:#d18a46;
+.second-container > .box:nth-child(even){
+    background-color:#ffce9e;
 }  
 
-.box1{
-    background-color: blueviolet;
-}
-
-.first-container > div {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
+.second-container > .box:nth-child(odd){
+    background-color: #d18a46;
 } 
 
-.second-container > div {
-    border: 1px solid black;
+.box {
     height: 100px;
     width: 100px;
 }
 
-.third-container > div {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
+.first-container {
+    display: flex;
+    flex-direction: row;
 }
 
-.fourth-container > div {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
-}
-
-.fifth-container > div {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
-}
-
-.sixth-container > div {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
-}
-
-.seventh-container > div {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
-}
-
-.eigth-container > div {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
+.second-container {
+    display: flex;
+    flex-direction: row;
 }
 
 
