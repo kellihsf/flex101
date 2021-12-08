@@ -1,0 +1,23 @@
+.main-container {
+    display: flex;
+    background-color: #576ec1;
+    height: 400px;
+    align-items: center;
+}
+
+.main-container > div {
+    display: flex;
+    background-color: #C0E3CE;
+    margin: 25px 15px 15px 15px;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans';
+    color:#1c6137; 
+}
