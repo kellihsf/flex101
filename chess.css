@@ -1,0 +1,65 @@
+.main-container {
+    display:flex;
+}
+
+.box:nth-child(odd) {
+    background-color:#ffce9e;
+  }
+
+.box:nth-child(even){
+    background-color:#d18a46;
+}  
+
+.box1{
+    background-color: blueviolet;
+}
+
+.first-container > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+} 
+
+.second-container > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.third-container > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.fourth-container > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.fifth-container > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.sixth-container > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.seventh-container > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.eigth-container > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+
