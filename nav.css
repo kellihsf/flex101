@@ -1,0 +1,41 @@
+.nav-bar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: -40px;
+    background-color: lightskyblue;
+}
+
+.nav-bar-item {
+    padding: 10px;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar-menu > .nav-bar-item {
+    color: white;
+    font-weight: bold;
+}
+
+aside > :nth-child(1){
+    float: right;
+}
+
+/* Most smart phones 
+min width: 320px 
+max-width: 480px 
+color: green  
+ */
+
+ @media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
